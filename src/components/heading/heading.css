@@ -1,0 +1,79 @@
+.i {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  background-color: #eeeeee;
+}
+.i-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+
+.i-left-wrapper {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.i-intro {
+  font-size: 2rem;
+  font-family: "Sacramento", cursive;
+  font-weight: 600;
+}
+
+.i-name {
+  font-size: 4rem;
+  width: max-content;
+  /* padding-left: 6px; */
+}
+
+.Typewriter__wrapper {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  width: fit-content;
+  height: 100%;
+}
+
+.words-wrapper {
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+}
+
+.Typewriter__cursor {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-left: 1px;
+}
+.profile-pic {
+  user-select: none;
+  bottom: 0;
+  margin: 0%;
+  width: 95%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-bg {
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  width: 90%;
+  height: 100%;
+  background-color: greenyellow;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+}

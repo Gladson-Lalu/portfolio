@@ -1,0 +1,60 @@
+.title-section {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.title-section h1 {
+  user-select: none;
+  font-size: 40px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title-section h1 span {
+  color: greenyellow;
+}
+.title-bg {
+  font-size: 90px;
+  letter-spacing: 10px;
+  line-height: 0.7;
+  position: absolute;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 800;
+  transform: translateY(-50%);
+  color: hsla(0, 0%, 0%, 0.06);
+}
+
+.list-group-item {
+  display: flex;
+}
+.list-group-item h5 h6 {
+  display: flex;
+}
+
+.list-group-item h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.container-section {
+  margin-bottom: 200px;
+  padding: 40px;
+  background-color: rebeccapurple;
+  display: flex;
+  border-radius: 5px;
+}
+.content {
+  color: white;
+  font-weight: 400;
+}
+
+.container-section svg {
+  margin-right: 10px;
+}
