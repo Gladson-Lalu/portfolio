@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Service from "./components/services/service";
 import Resume from "./components/resume/resume";
 import Works from "./components/works/works";
+import Contact from "./components/contact/contact";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Service></Service>
       <Resume></Resume>
       <Works></Works>
+      <Contact></Contact>
     </div>
   );
 }
