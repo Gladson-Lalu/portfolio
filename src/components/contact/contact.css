@@ -78,7 +78,7 @@
   padding: 16px 70px 16px 35px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: black;
   background-color: transparent;
   outline: 0 !important;
   cursor: pointer !important;
@@ -86,7 +86,7 @@
 .button .button-text {
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: black;
   transition: all 0.3s ease-out;
 }
 .button:before {
@@ -231,11 +231,12 @@
 .button-icon,
 .button:before,
 .contact ul.social li a:hover {
-  background-color: #ffb400;
+  background-color: greenyellow;
 }
 .button,
 .contact .contactform input[type="email"]:focus,
 .contact .contactform input[type="text"]:focus,
 .contact .contactform textarea:focus {
-  border: 1px solid #ffb400;
+  border: 2px solid greenyellow;
+  transform: scale(1.09);
 }

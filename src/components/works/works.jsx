@@ -7,7 +7,7 @@ const Works = () => {
     <main id="about">
       <div className="title-section">
         <h1>
-          My Recent<span>Works</span>
+          My Recent<span> Works</span>
         </h1>
         <span className="title-bg">Portfolio</span>
       </div>
@@ -113,8 +113,6 @@ const Works = () => {
             </div>
           </Col>
         </div>
-
-        <div className="more_works text-center"></div>
       </Container>
     </main>
   );

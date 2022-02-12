@@ -31,16 +31,6 @@
   color: hsla(0, 0%, 0%, 0.06);
 }
 
-.portfolio_area .more_works {
-  background: #040e27;
-  padding: 35px 0;
-}
-.portfolio_area .more_works a {
-  font-size: 20px;
-  font-family: Alata, sans-serif;
-  color: #fff;
-  font-weight: 400;
-}
 .portfolio_area .portfolio_wrap {
   overflow: hidden;
   display: grid;

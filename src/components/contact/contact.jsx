@@ -16,14 +16,14 @@ import "./contact.css";
 const Contact = () => {
   return (
     <main id="contact">
-      <div classNameName="title-section">
+      <div className="title-section">
         <h1>
           Get In<span>Touch</span>
         </h1>
-        <span classNameName="title-bg">CONTACT</span>
+        <span className="title-bg">CONTACT</span>
       </div>
 
-      <Container class="contact">
+      <Container className="contact">
         <Row>
           <Col lg={4} xs={12}>
             <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
