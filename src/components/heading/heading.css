@@ -2,51 +2,46 @@
   display: flex;
   height: 100vh;
   position: relative;
-  background-color: #eeeeee;
 }
 .i-left {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .i-right {
   flex: 1;
-  position: relative;
-}
-
-.i-left-wrapper {
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 100vh;
 }
 
 .i-intro {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Sacramento", cursive;
   font-weight: 600;
 }
 
 .i-name {
   font-size: 4rem;
+  color: var(--secondary);
   width: max-content;
-  /* padding-left: 6px; */
+  font-family: "Playfair Display", serif;
 }
 
 .Typewriter__wrapper {
-  font-size: 1.5rem;
   font-weight: 600;
+  color: var(--text);
   display: inline-block;
   width: fit-content;
   height: 100%;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
 }
 
 .words-wrapper {
   white-space: nowrap;
   width: 100%;
-  display: flex;
+  height: 3rem;
+  display: block;
 }
 
 .Typewriter__cursor {
@@ -58,22 +53,31 @@
   user-select: none;
   bottom: 0;
   margin: 0%;
-  width: 95%;
+  width: 100%;
   height: 100%;
+  transform: scale(2);
   object-fit: contain;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
+  z-index: 2;
 }
 
 .p-bg {
-  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  width: 90%;
-  height: 100%;
-  background-color: greenyellow;
-  position: absolute;
-  object-fit: cover;
-  top: 0;
+  width: 400px;
+  height: 400px;
+  background-color: var(--secondary);
+  top: 50%;
   right: 0;
+  position: absolute;
+  padding-top: 110px;
+  padding-right: 30px;
+  justify-content: center;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 16%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.description {
+  margin: 10px 0 0 0;
+  display: flex;
 }

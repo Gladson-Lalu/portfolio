@@ -78,7 +78,6 @@
   padding: 16px 70px 16px 35px;
   font-size: 15px;
   font-weight: 600;
-  color: black;
   background-color: transparent;
   outline: 0 !important;
   cursor: pointer !important;
@@ -237,6 +236,5 @@
 .contact .contactform input[type="email"]:focus,
 .contact .contactform input[type="text"]:focus,
 .contact .contactform textarea:focus {
-  border: 2px solid greenyellow;
-  transform: scale(1.09);
+  border: 1px solid greenyellow;
 }

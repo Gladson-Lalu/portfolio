@@ -1,6 +1,7 @@
 import "./heading.css";
 import Typewriter from "typewriter-effect";
-import profile from "../../images/profile.png";
+import profile from "../../assets/profile.png";
+import { Container } from "reactstrap";
 
 const Heading = () => {
   const tags = [
@@ -10,14 +11,14 @@ const Heading = () => {
     "Chess Player.",
     "And A Humble Human. ",
   ];
-  const delay = 70;
+  const delay = 35;
   const pause = 1000;
-  const deleteDelay = 31;
+  const deleteDelay = 10;
   return (
-    <header className="i">
-      <div className="i-left">
-        <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello,My name is</h2>
+    <Container className="i position-relative d-flex">
+      <div className="i-left d-flex align-items-center justify-content-center">
+        <div className="d-flex flex-column align-start">
+          <h2 className="i-intro">Hello!,My name is</h2>
           <h1 className="i-name">Gladson T Lalu</h1>
           <div className="i-title animated-text">
             <div className="words-wrapper">
@@ -49,19 +50,24 @@ const Heading = () => {
               />
             </div>
           </div>
-          <div className="i-title-item">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nam
-            laudantium veritatis suscipit. Quidem, veniam repellendus dolores
-            tempora ducimus sit placeat quaerat! Ut, cum commodi ipsam quis
-            omnis maxime iure.
-          </div>
+          <p className="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            accusamus rerum voluptas sed consequuntur maxime, numquam adipisci
+            voluptates maiores explicabo aliquam voluptate molestias consectetur
+            incidunt nostrum
+          </p>
         </div>
       </div>
-      <div className="i-right">
-        <div className="p-bg"></div>
-        <img className="profile-pic" src={profile} alt="My Profile" />
+      <div className="i-right position-relative justify-content-center">
+        <div className="p-bg">
+          <img
+            className="profile-pic align-items-center justify-content-center"
+            src={profile}
+            alt="My Profile"
+          />
+        </div>
       </div>
-    </header>
+    </Container>
   );
 };
 
